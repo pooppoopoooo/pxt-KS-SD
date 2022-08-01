@@ -1,27 +1,28 @@
 {
-    "name": "pxt-ks-sd",
-    "version": "0.0.0",
-    "description": "",
+    "name": "KS_SD",
+    "version": "0.1.8",
+    "description": "Extension for KAISE KSRobot SD Card",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*"
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "ksrobot.cpp",
+        "diskio.h",
+        "diskio.cpp",
+        "ff.cpp",
+        "ff.h",
+        "ffconf.h",
+        "_locales/zh/KS_SD-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
-    "targetVersions": {
-        "target": "5.0.12",
-        "targetId": "microbit"
-    },
     "supportedTargets": [
         "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    ]
 }
