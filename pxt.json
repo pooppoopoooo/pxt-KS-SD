@@ -1,6 +1,6 @@
 {
     "name": "KS_SD",
-    "version": "0.1.8",
+    "version": "0.6.0",
     "description": "Extension for KAISE KSRobot SD Card",
     "license": "MIT",
     "dependencies": {
